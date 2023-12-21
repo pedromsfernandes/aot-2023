@@ -1,0 +1,1 @@
+type AppendGood<T extends Record<string, unknown>> = {[k in keyof T as `good_${string & k}`]: T[k]};

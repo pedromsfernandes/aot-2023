@@ -1,0 +1,1 @@
+type FilterChildrenBy<S, E> = S extends E ? never : S;
